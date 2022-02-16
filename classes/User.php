@@ -1,16 +1,18 @@
 <?php 
 
 require_once __DIR__ ."/Card.php";
-
+require_once __DIR__ . "/../traits/Level.php";
 
 class User 
 {
+
+    use Level;
     protected $name;
     protected $lastname;
     protected $bank;
     protected $mail;
     protected $card;
-
+    
 
     public function __construct($name, $lastname, $card)
     {

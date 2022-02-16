@@ -1,10 +1,13 @@
 <?php
 
+
 class Card 
+
 {
     protected $cvv;
     protected $expDate;
     protected $number;
+
 
     public function __construct($cvv, $expDate, $number)
     {
@@ -72,4 +75,5 @@ class Card
 
         return $this;
     }
+
 }

@@ -23,9 +23,15 @@ trait Level
      * @return  self
      */ 
     public function setLevel($level)
-    {
-        $this->level = $level;
 
+    {
+        if ($level == "bronze") {
+            $this->level = 40;
+        } else if ($level == "silver") {
+            $this->level = 60;
+        } else if ($level == "gold") {
+            $this->level = 80;
+        }
         return $this;
     }
 }

@@ -10,6 +10,7 @@ class Card
 
 
     public function __construct($cvv, $expDate, $number)
+    
     {
         $this->cvv = $cvv;
         $this->expDate = $expDate;

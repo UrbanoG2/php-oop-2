@@ -17,7 +17,6 @@ class User
         $this->name = $name;
         $this->lastname = $lastname;
         $this->setCard($card);
-
     }
 
     /**

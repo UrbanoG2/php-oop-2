@@ -4,10 +4,7 @@ trait Level
 {
     protected $level;
 
-    public function __construct($level)
-    {
-        $this->level = $level;
-    }
+    
 
     /**
      * Get the value of level
